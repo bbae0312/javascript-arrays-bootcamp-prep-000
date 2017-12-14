@@ -3,6 +3,7 @@ var chocolateBars = () => {
 }
 
 var addElementToBeginningOfArray = (array, element) => {return [array, ...element]}
+
 var descructivelyAddElementToBeginningOfArray = (array, element) => {
   array.unshift(element);
   return array;
