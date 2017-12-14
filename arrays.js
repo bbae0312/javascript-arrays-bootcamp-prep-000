@@ -2,4 +2,7 @@ var chocolateBars = () => {
   return ['snickers', 'hundred grand', 'kitkat', 'skittles']
 }
 
-var 
+var descructivelyAddElementToBeginningOfArray = (array, element) => {
+  array.unshift(element);
+  return array;
+}
